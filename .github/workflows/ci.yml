@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Job1:
-    runs-on: local
+    runs-on: self-hosted
     steps:
       - name: whoami
         run: |
