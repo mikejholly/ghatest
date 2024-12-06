@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: whoami
         run: |
-          bash -c "sleep 2; whoami"
+          whoami
       - name: env
         run: |
           env
